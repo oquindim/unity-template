@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 6a4fd8ffb66a0441c87a48c4421006be
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: calca
+    100002: Capsule
+    100004: Capsule_1
+    100006: chapeu
+    100008: gravata_1
+    100010: meshes
+    100012: pele
+    100014: //RootNode
+    100016: Subdivision_Surface
+    100018: terno
+    100020: terno_1
+    100022: terno_2
+    100024: calca_2
+    100026: gravata_1_2
+    100028: pele_2
+    100030: terno_1_2
+    100032: cabelo
+    100034: Cube
+    100036: olho_d
+    100038: olho_e
+    100040: terno_1_3
+    100042: terno_3
+    400000: calca
+    400002: Capsule
+    400004: Capsule_1
+    400006: chapeu
+    400008: gravata_1
+    400010: meshes
+    400012: pele
+    400014: //RootNode
+    400016: Subdivision_Surface
+    400018: terno
+    400020: terno_1
+    400022: terno_2
+    400024: calca_2
+    400026: gravata_1_2
+    400028: pele_2
+    400030: terno_1_2
+    400032: cabelo
+    400034: Cube
+    400036: olho_d
+    400038: olho_e
+    400040: terno_1_3
+    400042: terno_3
+    2100000: off.black
+    2100002: marrom
+    2100004: azul.marinho
+    2100006: pele
+    2100008: azul
+    2100010: branco
+    2100012: preto
+    2300000: calca
+    2300002: Capsule
+    2300004: Capsule_1
+    2300006: gravata_1
+    2300008: pele
+    2300010: terno
+    2300012: terno_1
+    2300014: terno_2
+    2300016: calca_2
+    2300018: gravata_1_2
+    2300020: pele_2
+    2300022: terno_1_2
+    2300024: cabelo
+    2300026: Cube
+    2300028: olho_d
+    2300030: olho_e
+    2300032: terno_1_3
+    2300034: terno_3
+    3300000: calca
+    3300002: Capsule
+    3300004: Capsule_1
+    3300006: gravata_1
+    3300008: pele
+    3300010: terno
+    3300012: terno_1
+    3300014: terno_2
+    3300016: calca_2
+    3300018: gravata_1_2
+    3300020: pele_2
+    3300022: terno_1_2
+    3300024: cabelo
+    3300026: Cube
+    3300028: olho_d
+    3300030: olho_e
+    3300032: terno_1_3
+    3300034: terno_3
+    4300000: Capsule
+    4300002: Capsule_1
+    4300004: terno_1
+    4300006: terno
+    4300008: pele
+    4300010: terno_2
+    4300012: calca
+    4300014: gravata_1
+    4300016: terno_1_2
+    4300018: pele_2
+    4300020: calca_2
+    4300022: gravata_1_2
+    4300024: cabelo
+    4300026: Cube
+    4300028: olho_e
+    4300030: olho_d
+    4300032: terno_1_3
+    4300034: terno_3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: azul
+    second: {fileID: 2100000, guid: e5487d213ac2b448daa0cd05bc174832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: azul.marinho
+    second: {fileID: 2100000, guid: 85d344b7cd105498fb1ef9ced2fe7d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: branco
+    second: {fileID: 2100000, guid: cb9da36c8abc14a4ab06efe3611143f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marrom
+    second: {fileID: 2100000, guid: 6cb2e1932cbaf4f57a665270dddc8659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: off.black
+    second: {fileID: 2100000, guid: 7a50c6979fd264b9088966f31eb87248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pele
+    second: {fileID: 2100000, guid: 57e22804c08d443bea850599437b4fb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: preto
+    second: {fileID: 2100000, guid: 71215be66fe7f4f0f81c60baf9c4d46c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
