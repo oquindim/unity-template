@@ -183,6 +183,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 400100, guid: 6a4fd8ffb66a0441c87a48c4421006be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 6a4fd8ffb66a0441c87a48c4421006be, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cfd5d577c49b84b73a0913c8a5e26051, type: 2}
+    - target: {fileID: 9500000, guid: 6a4fd8ffb66a0441c87a48c4421006be, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 6a4fd8ffb66a0441c87a48c4421006be, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a4fd8ffb66a0441c87a48c4421006be, type: 3}
 --- !u!1001 &60788454
@@ -840,9 +856,9 @@ MonoBehaviour:
   horizontalMove: 0
   verticalMove: 0
   player: {fileID: 0}
-  velocidade: 2
+  velocidade: 3
   gravity: 9.8
-  jumpForce: 2
+  jumpForce: 3
   alegria: 0
   mainCamera: {fileID: 889416773}
 --- !u!143 &1746292329
@@ -862,7 +878,28 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.14, z: 0}
+  m_Center: {x: 0, y: 0.21, z: 0}
+--- !u!4 &1746292331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400014, guid: 6a4fd8ffb66a0441c87a48c4421006be,
+    type: 3}
+  m_PrefabInstance: {fileID: 32332902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1746292332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746292327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476b7f82b589c469fa39a29c32b4cf49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  player: {fileID: 1746292329}
+  playerTransform: {fileID: 1746292331}
 --- !u!1 &1759136773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,7 +1181,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060759161}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a8af4541cb694d97989e490fc17b864, type: 3}
   m_Name: 
