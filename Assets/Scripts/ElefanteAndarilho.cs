@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ElefanteAndarilho : MonoBehaviour
 {
+    public float velocidade = 0.3f;   
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(-1 * velocidade * Time.deltaTime,0, 0 );
     }
 }

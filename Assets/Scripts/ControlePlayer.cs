@@ -15,7 +15,7 @@ public class ControlePlayer : MonoBehaviour
     public float velocidade;
     private Vector3 movePlayer;
     public float gravity = 9.8f;
-    private float fallVelocity;
+    float fallVelocity;
     public float jumpForce;
     public float alegria;
 
@@ -44,8 +44,10 @@ public class ControlePlayer : MonoBehaviour
         movePlayer = (playerInput.x * camRight + playerInput.z * camForward) * velocidade;
 
         //faz o player olhar para a direcao em que está se movendo
-        player.transform.LookAt(player.transform.position + movePlayer);
-
+        if (player.isGrounded)
+        {
+            player.transform.LookAt(player.transform.position + movePlayer);
+        } 
         //aplica um vetor vertical de gravidade
         SetGravity();
 
@@ -70,7 +72,7 @@ public class ControlePlayer : MonoBehaviour
         }
         else
         {
-            playerInput = new Vector3(horizontalMove, 0, verticalMove * 0.2f);
+            playerInput = new Vector3(horizontalMove * 0.3f, 0, verticalMove * 0.3f);
         }
 
         // limita a velocidade na diagonal

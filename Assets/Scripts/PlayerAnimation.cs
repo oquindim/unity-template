@@ -7,13 +7,13 @@ public class PlayerAnimation : MonoBehaviour
     // Start is called before the first frame update
     public Animator animator;
     public CharacterController player;
-    public Transform playerTransform;
+    //public Transform playerTransform;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         player = GetComponent<CharacterController>();
-        playerTransform = GetComponent<Transform>();
+        //playerTransform = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -21,10 +21,10 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator.SetFloat("velocidade", player.velocity.magnitude);
 
-        if (playerTransform.position.y > 0.7) {
-            animator.SetBool("pulando",true);
+        if (player.isGrounded) {
+            animator.SetBool("pulando",false);
         } else {
-            animator.SetBool("pulando", false);
+            animator.SetBool("pulando", true);
         }
     }
 }
