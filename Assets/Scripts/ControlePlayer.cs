@@ -22,6 +22,7 @@ public class ControlePlayer : MonoBehaviour
     public Camera mainCamera;
     private Vector3 camForward;
     private Vector3 camRight;
+    // private Rigidbody rb;
 
 
 
@@ -29,6 +30,7 @@ public class ControlePlayer : MonoBehaviour
     void Start()
     {
         player = GetComponent<CharacterController>();
+        // rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame

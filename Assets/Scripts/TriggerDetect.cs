@@ -19,7 +19,14 @@ public class TriggerDetect : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
         Debug.Log("entrou");
-        Destroy(this);
+
+        if (other.gameObject.CompareTag ("coin")) {
+            Debug.Log("é coin");
+            
+            other.gameObject.SetActive (false);
+        }
+        // Debug.Log("entrou");
+        // Destroy(this);
 	}
 
     private void OnTriggerExit(Collider other)
